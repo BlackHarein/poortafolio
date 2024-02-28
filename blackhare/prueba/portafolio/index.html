@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portafolio de MR.Smith</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  </head>
+<body>
+  <div class="hero-header">
+    <div class="wrapper">
+      <header>
+        <div class="logo">
+          <i class="fa-solid fa-a"></i>
+          <div class="logo-text">Angel Smith</div>
+        </div>
+        
+      </header>
+      <div class="container">
+        <div class="hero-pic">
+          <img src="empresario.jpg" alt="profile pic" style= width 1000px>          
+        </div>
+        <div class="hero-text">
+          <h5>Soy el <span class>Empresario</span></h5>
+          <h1>Mr Smith</h1>
+          <p>Soy un empresario con una visión clara y una determinación inquebrantable para alcanzar el éxito. Con una sólida experiencia en liderazgo empresarial, me destaco por mi capacidad para identificar oportunidades y ejecutar estrategias efectivas. Me comprometo a liderar con integridad y a fomentar relaciones sólidas con clientes y colaboradores. Con una mentalidad emprendedora y orientada al crecimiento, estoy listo para enfrentar desafíos y alcanzar nuevos niveles de éxito en el mundo empresarial.
+          </p>
+          <div class="btn-grup">
+            <a href="#" class="btn active">Download Cv</a>
+          </div>
+          <div class="social">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-google"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    var togglebtn=document.querySelector(".togglebtn");
+    var nav=document.querySelector(".navlinks");
+    var links=document.querySelector(".navlinks");
+
+    togglebtn.addEventListener("click", function(){
+      this.classList.toggle("click");
+      nav.classList.toggle("open");
+    })
+  </script>
+</body>
+</html>
